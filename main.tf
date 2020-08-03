@@ -1,6 +1,5 @@
 provider "tencentcloud" {
-  version = ">=1.29.1"
-  region  = "ap-guangzhou" // GAAP doesn't care region
+  region = "ap-guangzhou" // GAAP doesn't care region
 }
 
 resource "tencentcloud_gaap_proxy" "default" {
